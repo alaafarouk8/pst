@@ -1,0 +1,3 @@
+"E:\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\A_KalevitchandChess.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\A_KalevitchandChess.dir/objects.a @CMakeFiles\A_KalevitchandChess.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\A_KalevitchandChess.dir/objects.a -Wl,--no-whole-archive  -o A_KalevitchandChess.exe -Wl,--out-implib,libA_KalevitchandChess.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\A_KalevitchandChess.dir\linklibs.rsp

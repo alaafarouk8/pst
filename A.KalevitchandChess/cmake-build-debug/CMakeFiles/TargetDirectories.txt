@@ -1,0 +1,3 @@
+D:/GitHubProjects/PSTCoreContests/A.KalevitchandChess/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/GitHubProjects/PSTCoreContests/A.KalevitchandChess/cmake-build-debug/CMakeFiles/A_KalevitchandChess.dir
+D:/GitHubProjects/PSTCoreContests/A.KalevitchandChess/cmake-build-debug/CMakeFiles/edit_cache.dir

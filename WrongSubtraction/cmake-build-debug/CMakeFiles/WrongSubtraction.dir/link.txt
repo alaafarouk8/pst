@@ -1,0 +1,3 @@
+"E:\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\WrongSubtraction.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\WrongSubtraction.dir/objects.a @CMakeFiles\WrongSubtraction.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\WrongSubtraction.dir/objects.a -Wl,--no-whole-archive  -o WrongSubtraction.exe -Wl,--out-implib,libWrongSubtraction.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\WrongSubtraction.dir\linklibs.rsp

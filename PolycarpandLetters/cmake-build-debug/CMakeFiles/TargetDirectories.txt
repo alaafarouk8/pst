@@ -1,0 +1,3 @@
+D:/GitHubProjects/PSTCoreContests/PolycarpandLetters/cmake-build-debug/CMakeFiles/PolycarpandLetters.dir
+D:/GitHubProjects/PSTCoreContests/PolycarpandLetters/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/GitHubProjects/PSTCoreContests/PolycarpandLetters/cmake-build-debug/CMakeFiles/rebuild_cache.dir

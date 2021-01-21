@@ -1,0 +1,3 @@
+D:/GitHubProjects/PSTCoreContests/K.Katastrophicsort/cmake-build-debug/CMakeFiles/K_Katastrophicsort.dir
+D:/GitHubProjects/PSTCoreContests/K.Katastrophicsort/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/GitHubProjects/PSTCoreContests/K.Katastrophicsort/cmake-build-debug/CMakeFiles/rebuild_cache.dir

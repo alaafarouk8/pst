@@ -1,0 +1,3 @@
+"E:\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\boyorgirl.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\boyorgirl.dir/objects.a @CMakeFiles\boyorgirl.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\boyorgirl.dir/objects.a -Wl,--no-whole-archive  -o boyorgirl.exe -Wl,--out-implib,libboyorgirl.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\boyorgirl.dir\linklibs.rsp

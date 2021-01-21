@@ -1,0 +1,3 @@
+D:/GitHubProjects/PSTCoreContests/A.bit++/cmake-build-debug/CMakeFiles/A_bit__.dir
+D:/GitHubProjects/PSTCoreContests/A.bit++/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/GitHubProjects/PSTCoreContests/A.bit++/cmake-build-debug/CMakeFiles/rebuild_cache.dir
