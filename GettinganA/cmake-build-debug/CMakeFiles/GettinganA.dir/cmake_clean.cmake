@@ -1,12 +1,12 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/GettinganA.dir/main.cpp.obj"
-  "GettinganA.exe"
-  "GettinganA.exe.manifest"
-  "GettinganA.pdb"
-  "libGettinganA.dll.a"
+  "CMakeFiles/gettingana.dir/main.cpp.obj"
+  "gettingana.exe"
+  "gettingana.exe.manifest"
+  "gettingana.pdb"
+  "libgettingana.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.
 foreach(lang CXX)
-  include(CMakeFiles/GettinganA.dir/cmake_clean_${lang}.cmake OPTIONAL)
+  include(CMakeFiles/gettingana.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

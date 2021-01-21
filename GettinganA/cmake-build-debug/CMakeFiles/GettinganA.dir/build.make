@@ -62,58 +62,58 @@ RM = "E:\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\GitHubProjects\PSTCoreContests\GettinganA
+CMAKE_SOURCE_DIR = D:\GitHubProjects\pst\GettinganA
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\GitHubProjects\PSTCoreContests\GettinganA\cmake-build-debug
+CMAKE_BINARY_DIR = D:\GitHubProjects\pst\GettinganA\cmake-build-debug
 
 # Include any dependencies generated for this target.
-include CMakeFiles/GettinganA.dir/depend.make
+include CMakeFiles/gettingana.dir/depend.make
 
 # Include the progress variables for this target.
-include CMakeFiles/GettinganA.dir/progress.make
+include CMakeFiles/gettingana.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include CMakeFiles/GettinganA.dir/flags.make
+include CMakeFiles/gettingana.dir/flags.make
 
-CMakeFiles/GettinganA.dir/main.cpp.obj: CMakeFiles/GettinganA.dir/flags.make
-CMakeFiles/GettinganA.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\GitHubProjects\PSTCoreContests\GettinganA\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/GettinganA.dir/main.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\GettinganA.dir\main.cpp.obj -c D:\GitHubProjects\PSTCoreContests\GettinganA\main.cpp
+CMakeFiles/gettingana.dir/main.cpp.obj: CMakeFiles/gettingana.dir/flags.make
+CMakeFiles/gettingana.dir/main.cpp.obj: ../main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\GitHubProjects\pst\GettinganA\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/gettingana.dir/main.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\gettingana.dir\main.cpp.obj -c D:\GitHubProjects\pst\GettinganA\main.cpp
 
-CMakeFiles/GettinganA.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GettinganA.dir/main.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\GitHubProjects\PSTCoreContests\GettinganA\main.cpp > CMakeFiles\GettinganA.dir\main.cpp.i
+CMakeFiles/gettingana.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gettingana.dir/main.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\GitHubProjects\pst\GettinganA\main.cpp > CMakeFiles\gettingana.dir\main.cpp.i
 
-CMakeFiles/GettinganA.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GettinganA.dir/main.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\GitHubProjects\PSTCoreContests\GettinganA\main.cpp -o CMakeFiles\GettinganA.dir\main.cpp.s
+CMakeFiles/gettingana.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gettingana.dir/main.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\GitHubProjects\pst\GettinganA\main.cpp -o CMakeFiles\gettingana.dir\main.cpp.s
 
-# Object files for target GettinganA
-GettinganA_OBJECTS = \
-"CMakeFiles/GettinganA.dir/main.cpp.obj"
+# Object files for target gettingana
+gettingana_OBJECTS = \
+"CMakeFiles/gettingana.dir/main.cpp.obj"
 
-# External object files for target GettinganA
-GettinganA_EXTERNAL_OBJECTS =
+# External object files for target gettingana
+gettingana_EXTERNAL_OBJECTS =
 
-GettinganA.exe: CMakeFiles/GettinganA.dir/main.cpp.obj
-GettinganA.exe: CMakeFiles/GettinganA.dir/build.make
-GettinganA.exe: CMakeFiles/GettinganA.dir/linklibs.rsp
-GettinganA.exe: CMakeFiles/GettinganA.dir/objects1.rsp
-GettinganA.exe: CMakeFiles/GettinganA.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\GitHubProjects\PSTCoreContests\GettinganA\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable GettinganA.exe"
-	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\GettinganA.dir\link.txt --verbose=$(VERBOSE)
+gettingana.exe: CMakeFiles/gettingana.dir/main.cpp.obj
+gettingana.exe: CMakeFiles/gettingana.dir/build.make
+gettingana.exe: CMakeFiles/gettingana.dir/linklibs.rsp
+gettingana.exe: CMakeFiles/gettingana.dir/objects1.rsp
+gettingana.exe: CMakeFiles/gettingana.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\GitHubProjects\pst\GettinganA\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable gettingana.exe"
+	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\gettingana.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/GettinganA.dir/build: GettinganA.exe
+CMakeFiles/gettingana.dir/build: gettingana.exe
 
-.PHONY : CMakeFiles/GettinganA.dir/build
+.PHONY : CMakeFiles/gettingana.dir/build
 
-CMakeFiles/GettinganA.dir/clean:
-	$(CMAKE_COMMAND) -P CMakeFiles\GettinganA.dir\cmake_clean.cmake
-.PHONY : CMakeFiles/GettinganA.dir/clean
+CMakeFiles/gettingana.dir/clean:
+	$(CMAKE_COMMAND) -P CMakeFiles\gettingana.dir\cmake_clean.cmake
+.PHONY : CMakeFiles/gettingana.dir/clean
 
-CMakeFiles/GettinganA.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\GitHubProjects\PSTCoreContests\GettinganA D:\GitHubProjects\PSTCoreContests\GettinganA D:\GitHubProjects\PSTCoreContests\GettinganA\cmake-build-debug D:\GitHubProjects\PSTCoreContests\GettinganA\cmake-build-debug D:\GitHubProjects\PSTCoreContests\GettinganA\cmake-build-debug\CMakeFiles\GettinganA.dir\DependInfo.cmake --color=$(COLOR)
-.PHONY : CMakeFiles/GettinganA.dir/depend
+CMakeFiles/gettingana.dir/depend:
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\GitHubProjects\pst\GettinganA D:\GitHubProjects\pst\GettinganA D:\GitHubProjects\pst\GettinganA\cmake-build-debug D:\GitHubProjects\pst\GettinganA\cmake-build-debug D:\GitHubProjects\pst\GettinganA\cmake-build-debug\CMakeFiles\gettingana.dir\DependInfo.cmake --color=$(COLOR)
+.PHONY : CMakeFiles/gettingana.dir/depend
 

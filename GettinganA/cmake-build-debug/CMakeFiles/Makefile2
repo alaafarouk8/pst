@@ -63,16 +63,16 @@ RM = "E:\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\GitHubProjects\PSTCoreContests\GettinganA
+CMAKE_SOURCE_DIR = D:\GitHubProjects\pst\GettinganA
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\GitHubProjects\PSTCoreContests\GettinganA\cmake-build-debug
+CMAKE_BINARY_DIR = D:\GitHubProjects\pst\GettinganA\cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/GettinganA.dir/all
+all: CMakeFiles/gettingana.dir/all
 
 .PHONY : all
 
@@ -82,36 +82,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/GettinganA.dir/clean
+clean: CMakeFiles/gettingana.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/GettinganA.dir
+# Target rules for target CMakeFiles/gettingana.dir
 
 # All Build rule for target.
-CMakeFiles/GettinganA.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GettinganA.dir\build.make CMakeFiles/GettinganA.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GettinganA.dir\build.make CMakeFiles/GettinganA.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\GitHubProjects\PSTCoreContests\GettinganA\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target GettinganA"
-.PHONY : CMakeFiles/GettinganA.dir/all
+CMakeFiles/gettingana.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gettingana.dir\build.make CMakeFiles/gettingana.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gettingana.dir\build.make CMakeFiles/gettingana.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\GitHubProjects\pst\GettinganA\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target gettingana"
+.PHONY : CMakeFiles/gettingana.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/GettinganA.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\GitHubProjects\PSTCoreContests\GettinganA\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/GettinganA.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\GitHubProjects\PSTCoreContests\GettinganA\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/GettinganA.dir/rule
+CMakeFiles/gettingana.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\GitHubProjects\pst\GettinganA\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/gettingana.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\GitHubProjects\pst\GettinganA\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/gettingana.dir/rule
 
 # Convenience name for target.
-GettinganA: CMakeFiles/GettinganA.dir/rule
+gettingana: CMakeFiles/gettingana.dir/rule
 
-.PHONY : GettinganA
+.PHONY : gettingana
 
 # clean rule for target.
-CMakeFiles/GettinganA.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GettinganA.dir\build.make CMakeFiles/GettinganA.dir/clean
-.PHONY : CMakeFiles/GettinganA.dir/clean
+CMakeFiles/gettingana.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gettingana.dir\build.make CMakeFiles/gettingana.dir/clean
+.PHONY : CMakeFiles/gettingana.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -67,10 +67,10 @@ RM = "E:\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\GitHubProjects\PSTCoreContests\GettinganA
+CMAKE_SOURCE_DIR = D:\GitHubProjects\pst\GettinganA
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\GitHubProjects\PSTCoreContests\GettinganA\cmake-build-debug
+CMAKE_BINARY_DIR = D:\GitHubProjects\pst\GettinganA\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\GitHubProjects\PSTCoreContests\GettinganA\cmake-build-debug\CMakeFiles D:\GitHubProjects\PSTCoreContests\GettinganA\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\GitHubProjects\pst\GettinganA\cmake-build-debug\CMakeFiles D:\GitHubProjects\pst\GettinganA\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\GitHubProjects\PSTCoreContests\GettinganA\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\GitHubProjects\pst\GettinganA\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -130,17 +130,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named GettinganA
+# Target rules for targets named gettingana
 
 # Build rule for target.
-GettinganA: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 GettinganA
-.PHONY : GettinganA
+gettingana: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gettingana
+.PHONY : gettingana
 
 # fast build rule for target.
-GettinganA/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GettinganA.dir\build.make CMakeFiles/GettinganA.dir/build
-.PHONY : GettinganA/fast
+gettingana/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gettingana.dir\build.make CMakeFiles/gettingana.dir/build
+.PHONY : gettingana/fast
 
 main.obj: main.cpp.obj
 
@@ -148,7 +148,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GettinganA.dir\build.make CMakeFiles/GettinganA.dir/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gettingana.dir\build.make CMakeFiles/gettingana.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -157,7 +157,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GettinganA.dir\build.make CMakeFiles/GettinganA.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gettingana.dir\build.make CMakeFiles/gettingana.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -166,7 +166,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GettinganA.dir\build.make CMakeFiles/GettinganA.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gettingana.dir\build.make CMakeFiles/gettingana.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -177,7 +177,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... GettinganA
+	@echo ... gettingana
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

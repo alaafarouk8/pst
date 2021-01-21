@@ -1,38 +1,35 @@
 #include <iostream>
 #include <bits/stdc++.h>
-using namespace std ;
-bool check (int sum , int n)
+using namespace std;
+int n ;
+bool check(int sum , int n)
 {
-    double  mean ;
-    mean = sum/n ;
-    if (mean>=4.5)
-    {
-        return true ;
-    }
-    return false ;
+    float mean = 0.0 ;
+    mean = (double) sum/n ;
+    return ((mean>=4.5)? 1:0) ;
 }
 int main() {
-
     ios_base::sync_with_stdio(0), cin.tie(0), cout.tie(0);
-    int n ;
     cin >> n ;
     vector <int> grades ;
-    int sum = 0 ;
-    for (int i = 0 ; i < n ; i++)
+    int sum = 0  ;
+    for (int i  = 0 ; i < n ; i++)
     {
-        int g ;
-        cin >> g ;
-        grades.push_back(g) ;
-        sum+=g ;
+        int x ;
+        cin >> x ;
+        grades.push_back(x);
+        sum+=x ;
     }
-    cout << check(sum,n) << endl ;
-    sort(grades.begin(),grades.end());
-    int ans = 0 ;
+    sort(grades.begin(),grades.end()) ;
+    int res = 0 ;
     while (!check(sum,n))
     {
-        ans++ ;
-        sum+=5-grades[ans];
+        int diff = 5 - grades[res] ;
+        sum = sum + diff;
+        res = res+1 ;
+
     }
-    cout << ans << endl;
+    cout << res << endl ;
+
     return 0;
 }

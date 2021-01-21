@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-D:/GitHubProjects/PSTCoreContests/GettinganA/main.cpp
+D:/GitHubProjects/pst/GettinganA/main.cpp
 iostream
 -
 bits/stdc++.h

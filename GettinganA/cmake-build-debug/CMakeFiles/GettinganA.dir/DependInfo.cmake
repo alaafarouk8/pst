@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/GitHubProjects/PSTCoreContests/GettinganA/main.cpp" "D:/GitHubProjects/PSTCoreContests/GettinganA/cmake-build-debug/CMakeFiles/GettinganA.dir/main.cpp.obj"
+  "D:/GitHubProjects/pst/GettinganA/main.cpp" "D:/GitHubProjects/pst/GettinganA/cmake-build-debug/CMakeFiles/gettingana.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
