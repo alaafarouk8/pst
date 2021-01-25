@@ -1,0 +1,3 @@
+D:/GitHubProjects/pst/powersoftwo/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/GitHubProjects/pst/powersoftwo/cmake-build-debug/CMakeFiles/powersoftwo.dir
+D:/GitHubProjects/pst/powersoftwo/cmake-build-debug/CMakeFiles/rebuild_cache.dir
